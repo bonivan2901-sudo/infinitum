@@ -1,0 +1,35 @@
+name: Server test
+on: [workflow_dispatch, push]
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Run dedicated server
+        run: |
+          chmod +x gradlew
+          mkdir -p run && echo "eula=true" > run/eula.txt
+          echo "level-type=minecraft\:normal" > run/server.properties
+          timeout 600 ./gradlew runServer > server-out.txt 2>&1 || true
+          echo "exit done"
+      - name: Save logs to 'testlog' branch
+        if: always()
+        run: |
+          mkdir /tmp/out
+          cp server-out.txt /tmp/out/ || true
+          cp run/logs/latest.log /tmp/out/ || true
+          cp -r run/crash-reports /tmp/out/ || true
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout --orphan testlog
+          git rm -rf . > /dev/null
+          cp -r /tmp/out/* .
+          git add -A
+          git commit -m "Server test logs"
+          git push -f origin testlog
