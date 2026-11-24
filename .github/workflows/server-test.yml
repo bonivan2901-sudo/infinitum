@@ -11,25 +11,28 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - name: Run dedicated server
+      - name: Run dedicated server until it is up (or crashes)
         run: |
           chmod +x gradlew
           mkdir -p run && echo "eula=true" > run/eula.txt
-          echo "level-type=minecraft\:normal" > run/server.properties
-          timeout 600 ./gradlew runServer > server-out.txt 2>&1 || true
-          echo "exit done"
+          ./gradlew runServer > server-out.txt 2>&1 &
+          for i in $(seq 1 120); do
+            sleep 5
+            if grep -q "Done (" run/logs/latest.log 2>/dev/null; then echo "SERVER STARTED"; break; fi
+            if grep -qE "FATAL|Failed to start|crash report" server-out.txt; then echo "SERVER CRASHED"; break; fi
+          done
+          sleep 5
+          pkill -f runServer || true
+          pkill -f java || true
       - name: Save logs to 'testlog' branch
         if: always()
         run: |
-          mkdir /tmp/out
-          cp server-out.txt /tmp/out/ || true
-          cp run/logs/latest.log /tmp/out/ || true
-          cp -r run/crash-reports /tmp/out/ || true
+          mkdir -p /tmp/out && cd /tmp/out
+          cp $GITHUB_WORKSPACE/server-out.txt . || true
+          cp $GITHUB_WORKSPACE/run/logs/latest.log . || true
+          cp -r $GITHUB_WORKSPACE/run/crash-reports . || true
+          git init -q -b testlog
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git checkout --orphan testlog
-          git rm -rf . > /dev/null
-          cp -r /tmp/out/* .
-          git add -A
-          git commit -m "Server test logs"
-          git push -f origin testlog
+          git add -A && git commit -qm "Server test logs"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" testlog
