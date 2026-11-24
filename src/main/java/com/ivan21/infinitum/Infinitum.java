@@ -23,7 +23,6 @@ public class Infinitum {
         ModBlockEntities.BLOCK_ENTITIES.register(bus);
         ModEntities.ENTITIES.register(bus);
         ModMenus.MENUS.register(bus);
-        ModEntities.ENTITIES.register(bus);
         ModRecipes.SERIALIZERS.register(bus);
         ModRecipes.TYPES.register(bus);
         ModCreativeTab.TABS.register(bus);
