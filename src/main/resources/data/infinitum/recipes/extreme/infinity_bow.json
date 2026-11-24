@@ -1,0 +1,35 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "   II    ",
+    "  I W    ",
+    " I  W    ",
+    "I   W    ",
+    "X   W    ",
+    "I   W    ",
+    " I  W    ",
+    "  I W    ",
+    "   II    "
+  ],
+  "key": {
+    "I": {
+      "item": "infinitum:infinity_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "   I     ",
+    "  IIIII  ",
+    "   IIN   ",
+    "      N  ",
+    "       N ",
+    "        N"
+  ],
+  "key": {
+    "I": {
+      "item": "infinitum:infinity_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_axe",
+    "count": 1
+  }
+}

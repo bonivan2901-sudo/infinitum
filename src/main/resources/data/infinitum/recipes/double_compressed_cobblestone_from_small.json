@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:compressed_cobblestone"
+    }
+  },
+  "result": {
+    "item": "infinitum:double_compressed_cobblestone",
+    "count": 1
+  }
+}

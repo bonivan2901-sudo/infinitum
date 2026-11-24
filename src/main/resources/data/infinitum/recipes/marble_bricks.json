@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:polished_marble"
+    }
+  },
+  "result": {
+    "item": "infinitum:marble_bricks",
+    "count": 4
+  }
+}

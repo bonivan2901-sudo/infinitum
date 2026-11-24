@@ -1,0 +1,32 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "   EEE   ",
+    " EEPPPEE ",
+    " EP N PE ",
+    "EEP S PEE",
+    "EP NSN PE",
+    "EEP S PEE",
+    " EP N PE ",
+    " EEPPPEE ",
+    "   EEE   "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:end_stone"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "infinitum:endest_pearl",
+    "count": 1
+  }
+}

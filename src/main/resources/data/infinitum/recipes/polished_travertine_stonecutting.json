@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "infinitum:travertine"
+  },
+  "result": "infinitum:polished_travertine",
+  "count": 1
+}

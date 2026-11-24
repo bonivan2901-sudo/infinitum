@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "infinitum:extreme_crafting_table",
+    "infinitum:infinity_block",
+    "infinitum:neutron_collector",
+    "infinitum:neutron_compressor",
+    "infinitum:neutronium_block"
+  ]
+}

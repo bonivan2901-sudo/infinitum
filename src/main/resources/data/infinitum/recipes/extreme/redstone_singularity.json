@@ -1,0 +1,26 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBNBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinitum:redstone_singularity",
+    "count": 1
+  }
+}

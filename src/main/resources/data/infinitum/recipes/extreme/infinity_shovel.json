@@ -1,0 +1,32 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "      III",
+    "     IIXI",
+    "      III",
+    "     N I ",
+    "    N    ",
+    "   N     ",
+    "  N      ",
+    " N       ",
+    "N        "
+  ],
+  "key": {
+    "I": {
+      "item": "infinitum:infinity_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_shovel",
+    "count": 1
+  }
+}

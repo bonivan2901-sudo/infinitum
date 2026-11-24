@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:slate"
+    }
+  },
+  "result": {
+    "item": "infinitum:slate_tiles",
+    "count": 4
+  }
+}

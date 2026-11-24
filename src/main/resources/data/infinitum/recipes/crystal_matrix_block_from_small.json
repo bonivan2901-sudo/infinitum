@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:crystal_matrix_ingot"
+    }
+  },
+  "result": {
+    "item": "infinitum:crystal_matrix_block",
+    "count": 1
+  }
+}

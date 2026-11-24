@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "infinitum:limestone"
+  },
+  "result": "infinitum:polished_limestone",
+  "count": 1
+}

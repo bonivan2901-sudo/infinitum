@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "infinitum:neutronium_ingot"
+    }
+  ],
+  "result": {
+    "item": "infinitum:neutron_nugget",
+    "count": 9
+  }
+}

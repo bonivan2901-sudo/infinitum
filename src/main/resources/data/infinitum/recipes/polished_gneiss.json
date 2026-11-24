@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:gneiss"
+    }
+  },
+  "result": {
+    "item": "infinitum:polished_gneiss",
+    "count": 4
+  }
+}

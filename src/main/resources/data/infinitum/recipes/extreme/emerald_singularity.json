@@ -1,0 +1,26 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBNBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB",
+    "BBBBBBBBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_block"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinitum:emerald_singularity",
+    "count": 1
+  }
+}

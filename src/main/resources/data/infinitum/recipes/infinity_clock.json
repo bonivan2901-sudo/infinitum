@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CNC",
+    "NKN",
+    "CNC"
+  ],
+  "key": {
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "K": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_clock",
+    "count": 1
+  }
+}

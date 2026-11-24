@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "WSW",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "S": {
+      "item": "infinitum:neutronium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_umbrella",
+    "count": 1
+  }
+}

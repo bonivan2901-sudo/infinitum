@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:limestone"
+    }
+  },
+  "result": {
+    "item": "infinitum:polished_limestone",
+    "count": 4
+  }
+}

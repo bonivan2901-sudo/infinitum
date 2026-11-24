@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "infinitum:marble",
+    "infinitum:polished_marble",
+    "infinitum:marble_bricks",
+    "infinitum:limestone",
+    "infinitum:polished_limestone",
+    "infinitum:limestone_bricks",
+    "infinitum:slate",
+    "infinitum:slate_tiles",
+    "infinitum:travertine",
+    "infinitum:polished_travertine",
+    "infinitum:gneiss",
+    "infinitum:polished_gneiss",
+    "infinitum:asphalt",
+    "infinitum:reinforced_concrete",
+    "infinitum:rusty_iron_block",
+    "infinitum:compressed_cobblestone",
+    "infinitum:double_compressed_cobblestone",
+    "infinitum:triple_compressed_cobblestone",
+    "infinitum:compressed_netherrack",
+    "infinitum:crystal_matrix_block",
+    "infinitum:neutronium_block",
+    "infinitum:infinity_block",
+    "infinitum:extreme_crafting_table",
+    "infinitum:neutron_collector",
+    "infinitum:neutron_compressor"
+  ]
+}

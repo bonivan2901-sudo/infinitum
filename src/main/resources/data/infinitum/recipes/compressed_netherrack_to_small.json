@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "infinitum:compressed_netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherrack",
+    "count": 9
+  }
+}

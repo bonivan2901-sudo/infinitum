@@ -1,0 +1,29 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "NNNNNNNNN",
+    "N       N",
+    "N  CCC  N",
+    "N C   C N",
+    "N C X C N",
+    "N C   C N",
+    "N  CCC  N",
+    "N       N",
+    "NNNNNNNNN"
+  ],
+  "key": {
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_ingot",
+    "count": 1
+  }
+}

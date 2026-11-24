@@ -1,0 +1,50 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    "NNNNNNNNN",
+    "N a b c N",
+    "N       N",
+    "N d C e N",
+    "N  CCC  N",
+    "N f C g N",
+    "N       N",
+    "N   h   N",
+    "NNNNNNNNN"
+  ],
+  "key": {
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "a": {
+      "item": "infinitum:iron_singularity"
+    },
+    "b": {
+      "item": "infinitum:gold_singularity"
+    },
+    "c": {
+      "item": "infinitum:copper_singularity"
+    },
+    "d": {
+      "item": "infinitum:redstone_singularity"
+    },
+    "e": {
+      "item": "infinitum:lapis_singularity"
+    },
+    "f": {
+      "item": "infinitum:diamond_singularity"
+    },
+    "g": {
+      "item": "infinitum:emerald_singularity"
+    },
+    "h": {
+      "item": "infinitum:netherite_singularity"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_catalyst",
+    "count": 1
+  }
+}

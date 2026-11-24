@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LCL",
+    "CTC",
+    "LCL"
+  ],
+  "key": {
+    "L": {
+      "item": "infinitum:diamond_lattice"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "infinitum:extreme_crafting_table",
+    "count": 1
+  }
+}

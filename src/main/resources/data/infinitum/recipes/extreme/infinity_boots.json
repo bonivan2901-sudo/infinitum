@@ -1,0 +1,29 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    " NNN NNN ",
+    " NIN NIN ",
+    " NIN NIN ",
+    "NNIN NINN",
+    "NIIN NIIN",
+    "NNNN NNNN"
+  ],
+  "key": {
+    "I": {
+      "item": "infinitum:infinity_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_boots",
+    "count": 1
+  }
+}

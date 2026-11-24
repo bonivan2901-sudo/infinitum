@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:neutron_nugget"
+    }
+  },
+  "result": {
+    "item": "infinitum:neutronium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitum:travertine"
+    }
+  },
+  "result": {
+    "item": "infinitum:polished_travertine",
+    "count": 4
+  }
+}

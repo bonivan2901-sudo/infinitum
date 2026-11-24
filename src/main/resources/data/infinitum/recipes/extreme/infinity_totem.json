@@ -1,0 +1,31 @@
+{
+  "type": "infinitum:extreme_shaped",
+  "pattern": [
+    " NNNNNNN ",
+    "NCCCCCCCN",
+    "NC TXT CN",
+    "NCCCCCCCN",
+    " NNNNNNN "
+  ],
+  "key": {
+    "I": {
+      "item": "infinitum:infinity_ingot"
+    },
+    "C": {
+      "item": "infinitum:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "infinitum:neutronium_ingot"
+    },
+    "X": {
+      "item": "infinitum:infinity_catalyst"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "infinitum:infinity_totem",
+    "count": 1
+  }
+}
